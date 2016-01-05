@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{01D2DB57-7A8D-4773-806D-C13BCF53745B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AssembleDocumentation</RootNamespace>
+    <AssemblyName>AssembleDocumentation</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="package.json" />
+    <None Include="src\content\en\appendix.md" />
+    <None Include="src\content\en\build\data.json" />
+    <None Include="src\content\en\build\en.hbs" />
+    <None Include="src\content\en\css.md" />
+    <None Include="src\content\en\general.md" />
+    <None Include="src\content\en\html.md" />
+    <None Include="src\content\en\javascript.md" />
+    <None Include="src\content\en\responsive.md" />
+    <None Include="src\content\es\appendix.md" />
+    <None Include="src\content\es\build\data.json" />
+    <None Include="src\content\es\build\es.hbs" />
+    <None Include="src\content\es\css.md" />
+    <None Include="src\content\es\general.md" />
+    <None Include="src\content\es\html.md" />
+    <None Include="src\content\es\javascript.md" />
+    <None Include="src\content\es\responsive.md" />
+    <None Include="src\img\.gitignore" />
+    <None Include="src\img\screenshot.psd" />
+    <None Include="src\scss\global\_alignments.scss" />
+    <None Include="src\scss\global\_base.scss" />
+    <None Include="src\scss\global\_cat.scss" />
+    <None Include="src\scss\global\_footer.scss" />
+    <None Include="src\scss\global\_header.scss" />
+    <None Include="src\scss\global\_layout.scss" />
+    <None Include="src\scss\global\_links.scss" />
+    <None Include="src\scss\global\_mediaqueries.scss" />
+    <None Include="src\scss\global\_print.scss" />
+    <None Include="src\scss\global\_table_of_contents.scss" />
+    <None Include="src\scss\global\_typography.scss" />
+    <None Include="src\scss\helpers\_mixins.scss" />
+    <None Include="src\scss\helpers\_variables.scss" />
+    <None Include="src\scss\js-only.scss" />
+    <None Include="src\scss\style.scss" />
+    <None Include="src\_layouts\main.hbs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="en.html" />
+    <Content Include="Gruntfile.js" />
+    <Content Include="index.html" />
+    <Content Include="node.exe" />
+    <Content Include="server.js" />
+    <Content Include="src\img\arrow-090-small.png" />
+    <Content Include="src\img\bg-body.gif" />
+    <Content Include="src\img\box_model.png" />
+    <Content Include="src\img\browsers1.jpg" />
+    <Content Include="src\img\en.png" />
+    <Content Include="src\img\es.png" />
+    <Content Include="src\img\favicon.ico" />
+    <Content Include="src\img\fork-me.png" />
+    <Content Include="src\img\ft_logo.png" />
+    <Content Include="src\img\icon-curly-full.png" />
+    <Content Include="src\img\icon-curly.png" />
+    <Content Include="src\img\icon-curly_50.png" />
+    <Content Include="src\img\isobar-feature.png" />
+    <Content Include="src\img\isobar-logo.jpg" />
+    <Content Include="src\img\isobar-logo.png" />
+    <Content Include="src\img\isobar.png" />
+    <Content Include="src\img\layout\bg-body.gif" />
+    <Content Include="src\img\layout\icon-curly.png" />
+    <Content Include="src\img\layout\sprite-social.png" />
+    <Content Include="src\img\lock-10.png" />
+    <Content Include="src\img\logo-roundarchisobar.png" />
+    <Content Include="src\img\orange.svg" />
+    <Content Include="src\img\patterns_hiring.gif" />
+    <Content Include="src\img\screenshot.jpg" />
+    <Content Include="src\img\seoautid1.png" />
+    <Content Include="src\img\seoautid2.png" />
+    <Content Include="src\img\sprite-social.png" />
+    <Content Include="src\js\script.js" />
+    <Content Include="src\js\vendor\fastclick.js" />
+    <Content Include="src\js\vendor\jquery-1.11.3.min.js" />
+    <Content Include="src\js\vendor\jquery.scrollTo.js" />
+    <Content Include="src\js\vendor\plugins.js" />
+    <Content Include="src\js\vendor\prism.js" />
+    <Content Include="src\scss\js-only\_prism.css" />
+    <Content Include="_assets\css\style.css" />
+    <Content Include="_assets\img\arrow-090-small.png" />
+    <Content Include="_assets\img\bg-body.gif" />
+    <Content Include="_assets\img\box_model.png" />
+    <Content Include="_assets\img\browsers1.jpg" />
+    <Content Include="_assets\img\en.png" />
+    <Content Include="_assets\img\es.png" />
+    <Content Include="_assets\img\favicon.ico" />
+    <Content Include="_assets\img\fork-me.png" />
+    <Content Include="_assets\img\ft_logo.png" />
+    <Content Include="_assets\img\icon-curly-full.png" />
+    <Content Include="_assets\img\icon-curly.png" />
+    <Content Include="_assets\img\icon-curly_50.png" />
+    <Content Include="_assets\img\isobar-feature.png" />
+    <Content Include="_assets\img\isobar-logo.jpg" />
+    <Content Include="_assets\img\isobar-logo.png" />
+    <Content Include="_assets\img\isobar.png" />
+    <Content Include="_assets\img\layout\bg-body.gif" />
+    <Content Include="_assets\img\layout\icon-curly.png" />
+    <Content Include="_assets\img\layout\sprite-social.png" />
+    <Content Include="_assets\img\lock-10.png" />
+    <Content Include="_assets\img\logo-roundarchisobar.png" />
+    <Content Include="_assets\img\orange.svg" />
+    <Content Include="_assets\img\patterns_hiring.gif" />
+    <Content Include="_assets\img\screenshot.jpg" />
+    <Content Include="_assets\img\seoautid1.png" />
+    <Content Include="_assets\img\seoautid2.png" />
+    <Content Include="_assets\img\sprite-social.png" />
+    <Content Include="_assets\js\main.js" />
+    <Content Include="_assets\js\main.min.js" />
+    <Content Include="_assets\js\vendor\jquery-1.11.3.min.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>"$(ProjectDir)node.exe" "$(ProjectDir)server.js"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
