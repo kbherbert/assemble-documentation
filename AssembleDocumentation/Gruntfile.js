@@ -5,7 +5,7 @@ module.exports = function(grunt) {
 
   // @todo: move to json file
   var standards = {
-    ourLanguages : ['en', 'es'],
+    ourLanguages : ['en'], //['en', 'es', etc]
     defaultFile : 'index',
     defaultExt : '.html',
     // change this to have the 'index' file be another language
@@ -36,15 +36,7 @@ module.exports = function(grunt) {
         files : {
           'en.html' : ['src/content/en/build/en.hbs']
         }
-      },
-      /*es: {
-        options : {
-          data : 'src/content/es/build/data.json'
-        },
-        files : {
-          'es.html' : ['src/content/es/build/es.hbs']
-        }
-      },*/
+      }
     },
 
     // clean up after the previous build

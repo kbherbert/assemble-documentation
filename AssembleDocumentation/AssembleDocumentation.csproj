@@ -57,14 +57,6 @@
     <None Include="src\content\en\html.md" />
     <None Include="src\content\en\javascript.md" />
     <None Include="src\content\en\responsive.md" />
-    <None Include="src\content\es\appendix.md" />
-    <None Include="src\content\es\build\data.json" />
-    <None Include="src\content\es\build\es.hbs" />
-    <None Include="src\content\es\css.md" />
-    <None Include="src\content\es\general.md" />
-    <None Include="src\content\es\html.md" />
-    <None Include="src\content\es\javascript.md" />
-    <None Include="src\content\es\responsive.md" />
     <None Include="src\img\.gitignore" />
     <None Include="src\img\screenshot.psd" />
     <None Include="src\scss\global\_alignments.scss" />
