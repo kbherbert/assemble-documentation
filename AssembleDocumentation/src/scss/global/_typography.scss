@@ -45,7 +45,7 @@ p, ol, ul {
 ----------------------------------------------------------------------------------------------------*/
 
 /* Headers (h1, h2, etc) have no default font-size or margin;define those yourself */
-h1, h2, h3, h4, h5, h6 { 
+h1, h2, h3, h4, h5, h6 {
   font-family: $heading-font-stack;
   color: $isobar-orange;
   position: relative;
@@ -56,7 +56,7 @@ h3, h4, h5, h6 { font-weight: normal; }
 
 h1 {
   color: $default-text;
-  font-size: 36px;  
+  font-size: 36px;
   font-weight: 700;
   line-height: 1.1em;
   margin-bottom: 14px;
@@ -78,7 +78,7 @@ h4 {
   color: $default-3-text;
   margin-bottom: 8px;
 }
-h5 { 
+h5 {
   font-size: 18px;
   color: $default-2-text;
 }
@@ -93,7 +93,7 @@ h2::before{
     height: 94px;
     font-size:65px;
     width: 80px;
-    background: none repeat scroll 0% 0% #F74902;
+    background: none repeat scroll 0% 0% $primary;
     float: left;
     margin: 0px 20px 20px 0px;
 }

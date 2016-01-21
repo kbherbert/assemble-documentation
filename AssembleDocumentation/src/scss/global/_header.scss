@@ -3,13 +3,13 @@
 /* `Topper + Header (who called it a topper in old version? lol)
 ----------------------------------------------------------------------------------------------------*/
 
-body .fork { 
-  position: fixed; 
+body .fork {
+  position: fixed;
   top: 0;
-  right: -15px; 
-  z-index:4; 
-  width: 149px; 
-  height: 149px; 
+  right: -15px;
+  z-index:4;
+  width: 149px;
+  height: 149px;
   background: url(../img/fork-me.png) no-repeat -15px top;
 }
 
@@ -24,13 +24,10 @@ header {
 
 //social links in header?
 header a {
-  width: 137px;
-  height: 39px;
   display: inline-block;
 }
 
 header h1 {
-  width: 137px;
   padding: 0;
   height: 40px;
   margin-left: 20px;
@@ -81,16 +78,16 @@ header canvas {
     border-bottom: 5px solid $isobar-orange;
   }
 }
-header h1 a { 
-  background:url("../img/orange.svg") no-repeat 0 0;
-    background-size: auto 80%;
+header h1 a {
+  background:url("../img/humana-logo.png") no-repeat 0 0;
+  background-size: auto 80%;
   overflow: hidden;
-    text-indent: 200%;
-    white-space: nowrap;
-    display:block;
+  text-indent: 200%;
+  white-space: nowrap;
+  display:block;
 }
 
-header .social #linkback:hover { 
+header .social #linkback:hover {
 /*color: $isobar-orange;*/
 }
 
@@ -105,8 +102,8 @@ header .social #linkback:hover {
       width: 22px;
       margin-right: 6px;
       vertical-align: top;
-    a { 
-      width: 100%; 
+    a {
+      width: 100%;
       height: 100%;
       display: block;
       background-size: 100%;
@@ -116,7 +113,7 @@ header .social #linkback:hover {
     width: auto;
   }
 }
-#linkback { 
+#linkback {
   color: $medium-gray;
   text-decoration: none;
   text-align: center;

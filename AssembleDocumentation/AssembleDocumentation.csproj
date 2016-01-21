@@ -49,14 +49,18 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="package.json" />
-    <None Include="src\content\en\appendix.md" />
+    <None Include="src\content\en\accessibility_and_usability.md" />
+    <None Include="src\content\en\analytics.md" />
     <None Include="src\content\en\build\data.json" />
     <None Include="src\content\en\build\en.hbs" />
     <None Include="src\content\en\css.md" />
-    <None Include="src\content\en\general.md" />
     <None Include="src\content\en\html.md" />
+    <None Include="src\content\en\intro.md" />
     <None Include="src\content\en\javascript.md" />
-    <None Include="src\content\en\responsive.md" />
+    <None Include="src\content\en\misc.md" />
+    <None Include="src\content\en\mobile.md" />
+    <None Include="src\content\en\performance.md" />
+    <None Include="src\content\en\seo.md" />
     <None Include="src\img\.gitignore" />
     <None Include="src\img\screenshot.psd" />
     <None Include="src\scss\global\_alignments.scss" />
@@ -75,6 +79,8 @@
     <None Include="src\scss\js-only.scss" />
     <None Include="src\scss\style.scss" />
     <None Include="src\_layouts\main.hbs" />
+    <None Include="_assets\md\front-end-standards.md" />
+    <None Include="_assets\pdf\front-end-standards.pdf" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="en.html" />
@@ -91,6 +97,7 @@
     <Content Include="src\img\favicon.ico" />
     <Content Include="src\img\fork-me.png" />
     <Content Include="src\img\ft_logo.png" />
+    <Content Include="src\img\humana-logo.png" />
     <Content Include="src\img\icon-curly-full.png" />
     <Content Include="src\img\icon-curly.png" />
     <Content Include="src\img\icon-curly_50.png" />
@@ -126,6 +133,7 @@
     <Content Include="_assets\img\favicon.ico" />
     <Content Include="_assets\img\fork-me.png" />
     <Content Include="_assets\img\ft_logo.png" />
+    <Content Include="_assets\img\humana-logo.png" />
     <Content Include="_assets\img\icon-curly-full.png" />
     <Content Include="_assets\img\icon-curly.png" />
     <Content Include="_assets\img\icon-curly_50.png" />
@@ -148,6 +156,7 @@
     <Content Include="_assets\js\main.min.js" />
     <Content Include="_assets\js\vendor\jquery-1.11.3.min.js" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>"$(ProjectDir)node.exe" "$(ProjectDir)server.js"</PostBuildEvent>
